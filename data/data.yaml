@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 8
+names: ['bicycle', 'bus', 'car', 'cng', 'motorcycle', 'other-vehicle', 'person', 'rickshaw']
+
+roboflow:
+  workspace: tanzim-mostafa
+  project: p2_dhaka_dataset-f6ba6
+  version: 29
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tanzim-mostafa/p2_dhaka_dataset-f6ba6/dataset/29
