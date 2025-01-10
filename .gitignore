@@ -35,6 +35,16 @@ data/images/*
 !data/images/bus.jpg
 !data/*.sh
 
+
+
+#dataset
+dataset/
+
+
+##commetML
+.cometml-runs/
+
+
 results*.csv
 
 # Datasets -------------------------------------------------------------------------------------------------------------
@@ -156,6 +166,7 @@ celerybeat-schedule
 .venv*
 venv*/
 ENV*/
+yolov5-env/
 
 # Spyder project settings
 .spyderproject
